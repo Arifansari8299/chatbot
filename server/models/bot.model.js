@@ -9,7 +9,6 @@ const botSchema = new mongoose.Schema({
     type:Date,
     default:Date.now
   }
-
 })
 
 const Bot = mongoose.model("Bot",botSchema)
